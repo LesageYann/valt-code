@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Développeur web",
+    "subhead": "1 an 6 mois - Node JS / Angular",
+    "photo": "/media/gevu.png",
+    "links":[
+        {
+          "displayName": "site",
+          "target": "https://www.gevu.org/outil-gevu"
+        }
+      ]
+  },
+  {
+    "title": "Développeur web",
+    "subhead": "Poste actuel - Pharo / Seaside / JS",
+    "photo": "/media/gevu.png",
+    "links":[
+        {
+          "displayName": "site",
+          "target": "http://synectique.eu/fr/"
+        }
+      ]
+  }
+]

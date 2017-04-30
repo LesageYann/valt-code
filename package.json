@@ -1,0 +1,31 @@
+{
+  "name": "valt-code",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "json-loader": "^0.5.4",
+    "material-components-web": "^0.9.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.0",
+    "cssnext-loader": "^1.0.1",
+    "eslint-loader": "^1.7.1",
+    "file-loader": "^0.11.1",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "react-scripts": "0.9.5",
+    "style-loader": "^0.16.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  }
+}

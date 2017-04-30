@@ -1,0 +1,47 @@
+[
+  {
+    "title": "MDL",
+    "subhead": "JS / Seaside / Pharo",
+    "photo": "/media/mdl.png",
+    "links":[
+      {
+        "displayName": "Repo",
+        "target": "http://smalltalkhub.com/#!/~KevinLanvin/MaterialDesignLite"
+      },
+      {
+        "displayName": "Demo",
+        "target": ""
+      }
+      ]
+  },
+  {
+    "title": "Telescope",
+    "subhead": "JS / Seaside / Pharo",
+    "photo": "/media/telescope.png",
+    "links":[
+      {
+        "displayName": "Repo",
+        "target": "http://smalltalkhub.com/#!/~Moose/Telescope"
+      },
+      {
+        "displayName": "Demo",
+        "target": ""
+      }
+      ]
+  },
+  {
+    "title": "PrismCodeDisplayer",
+    "subhead": "JS / Seaside / Pharo",
+    "photo": "/media/prism.png",
+    "links":[
+        {
+          "displayName": "Repo",
+          "target": "http://smalltalkhub.com/#!/~PharoExtras/PrismCodeDisplayer"
+        },
+        {
+          "displayName": "Demo",
+          "target": ""
+        }
+      ]
+  }
+]
