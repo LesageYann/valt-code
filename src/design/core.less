@@ -32,8 +32,11 @@ body {
     height: 100%;
     background-color: #37474f;
     color: @whited;
-    padding: 10px;
+    padding: 25px;
     width: 300px;
+    text-align: justify;
+    word-break: break-all;
+    word-wrap: break-word;
 
     .user-avatar {
         width: 200px;
@@ -50,9 +53,17 @@ body {
     }
 }
 
-#main {
+.main {
   padding: 15px 30px;
   flex-grow: 1;
+
+  h2 {
+    background-color: @secondary-900;
+    color: @whited;
+    padding: 2px 20px;
+    margin: 0px;
+    font-size: 2em;
+  }
 }
 
 .skill-ui {
@@ -65,13 +76,6 @@ body {
     max-width: 500px;
     padding: 0px;
 
-    h2 {
-      background-color: @secondary-900;
-      color: @whited;
-      padding: 15px 30px;
-      margin: 0px;
-    }
-
     ul {
       padding: 0px;
 
@@ -81,6 +85,7 @@ body {
     }
 
     .cardSkill {
+      margin-bottom: 13px;
 
       > * {
         margin: auto;
@@ -94,15 +99,7 @@ body {
     margin: 15px auto;
     overflow: auto;
     position: relative;
-    padding-top: 10px;
-
-    > h2 {
-      margin: 0px;
-      position: absolute;
-      top: 0px;
-      z-index: 20;
-      color: @secondary-800;
-    }
+    box-shadow: @shadow;
 
     .mdl-card{
       background-color: @white;

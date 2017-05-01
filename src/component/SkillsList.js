@@ -7,7 +7,7 @@ class SkillsList extends MDLComponent {
     return (
       <div className="skillsList">
         <h2>{this.props.title}</h2>
-        <ul className=".mdl-list">
+        <ul className="mdl-list">
           {this.props.items.map((item) => <Skill item={item}/>)}
         </ul>
       </div>
