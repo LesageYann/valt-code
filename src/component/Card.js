@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import MDLComponent from '../utils/MDLComponent.js';
 import LinkButton from './LinkButton.js';
 
-class Card extends Component {
+class Card extends MDLComponent {
   render() {
     return (
-      <div className="mdc-card">
-          <section className="mdc-card__primary">
-            <h1 className="mdc-card__title">{this.props.item.title}</h1>
-            <h2 className="mdc-card__subtitle">{this.props.item.subhead}</h2>
+      <div className="mdl-card">
+          <section className="mdl-card__primary">
+            <h3 className="mdl-card__title">{this.props.item.title}</h3>
+            <h4 className="mdl-card__subtitle">{this.props.item.subhead}</h4>
           </section>
-          <section className="mdc-card__media "><img src={this.props.item.photo}/></section>
-          <section className="mdc-card__actions">
+          <section className="mdl-card__media "><img src={this.props.item.photo}/></section>
+          <section className="mdl-card__actions">
             {this.props.item.links.map((link) => <LinkButton target={link.target} displayName={link.displayName}/>)}
           </section>
         </div>

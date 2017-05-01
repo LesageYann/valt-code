@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import MDLComponent from '../utils/MDLComponent.js';
 
-class LinkButton extends Component {
+class LinkButton extends MDLComponent {
   render() {
     return (
       <a href={this.props.target}>
-        <button className="mdc-button mdc-button--raised mdc-button--accent mdc-button--compact mdc-card__action">
+        <button className="mdl-button mdl-button--raised mdl-button--accent mdl-button--compact mdl-card__action">
           {this.props.displayName}
         </button>
       </a>

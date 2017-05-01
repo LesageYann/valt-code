@@ -10,7 +10,7 @@
       },
       {
         "displayName": "Demo",
-        "target": ""
+        "target": "http://pharo.yann-lesage.me/MDLComponentsDemoApplication"
       }
       ]
   },
@@ -25,7 +25,7 @@
       },
       {
         "displayName": "Demo",
-        "target": ""
+        "target": "http://pharo.yann-lesage.me/TelescopeWebDemo"
       }
       ]
   },
@@ -40,7 +40,7 @@
         },
         {
           "displayName": "Demo",
-          "target": ""
+          "target": "http://pharo.yann-lesage.me/PrismDemo"
         }
       ]
   }

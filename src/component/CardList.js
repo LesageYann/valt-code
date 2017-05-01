@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import MDLComponent from '../utils/MDLComponent.js';
 import Card from './Card.js';
 
-class CardList extends Component {
+class CardList extends MDLComponent {
   render() {
     return (
       <div className="cardlist-root">

@@ -2,8 +2,8 @@
 @primaryd: #2286c3;
 @primaryl: #9be7ff;
 @secondary: #1b5e20;
-@secondaryd: #003300;
-@secondaryl: #4c8c4a;
+@secondary-900: #0d47a1;
+@secondary-800: #1565c0;
 
 @white: #fff;
 @whited: #eee;
@@ -15,11 +15,6 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: @whited;
-}
-
-:root {
-    --mdc-theme-primary: @primary;
-    --mdc-theme-accent: @secondary;
 }
 
 .root {
@@ -35,7 +30,8 @@ body {
 .user-aside {
     box-shadow: @shadow;
     height: 100%;
-    background-color: @primary;
+    background-color: #37474f;
+    color: @whited;
     padding: 10px;
     width: 300px;
 
@@ -59,6 +55,41 @@ body {
   flex-grow: 1;
 }
 
+.skill-ui {
+  display: flex;
+
+  .skillsList {
+    flex-grow: 1;
+    background-color: white;
+    margin: 60px auto 10px auto;
+    max-width: 500px;
+    padding: 0px;
+
+    h2 {
+      background-color: @secondary-900;
+      color: @whited;
+      padding: 15px 30px;
+      margin: 0px;
+    }
+
+    ul {
+      padding: 0px;
+
+      li {
+        list-style: none;
+      }
+    }
+
+    .cardSkill {
+
+      > * {
+        margin: auto;
+        text-align: center;
+      }
+    }
+  }
+}
+
 .cardlist-root {
     margin: 15px auto;
     overflow: auto;
@@ -70,14 +101,30 @@ body {
       position: absolute;
       top: 0px;
       z-index: 20;
+      color: @secondary-800;
     }
 
-    .mdc-card{
+    .mdl-card{
       background-color: @white;
       margin: 10px 5px;
       position: relative;
 
-      .mdc-card__primary {
+      .mdl-card__title{
+        font-size: 2em;
+        padding: 10px 0px 0px 0px;
+      }
+
+      .mdl-card__subtitle{
+        font-size: 1em;
+        height: 2em;
+        padding: 0px
+      }
+
+      .mdl-card__title, .mdl-card__subtitle {
+        margin: 0px;
+      }
+
+      .mdl-card__primary {
         padding: 10px 10px 0px 10px;
       }
     }
@@ -87,14 +134,14 @@ body {
       display: flex;
       width: 100%;
 
-      .mdc-card__media {
+      .mdl-card__media {
         padding: 0px;
         width: 350px;
         height: 200px;
         overflow: hidden;
       }
 
-      .mdc-card__actions {
+      .mdl-card__actions {
         position: absolute;
         bottom: 0px;
         background-color: rgba(255,255,255,0.3);

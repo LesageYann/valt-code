@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import MDLComponent from './../utils/MDLComponent.js';
 import user from './userData.json';
 
-class UserAside extends Component {
+class UserAside extends MDLComponent {
   render() {
     return (
       <aside className="user-aside">
