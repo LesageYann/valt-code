@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Git",
+    "level": "80"
+  },
+  {
+    "title": "Base SQL(Postgresql)",
+    "level": "75"
+  },
+  {
+    "title": "Intégration continue & test",
+    "level": "60"
+  },
+  {
+    "title": "Nginx",
+    "level": "60"
+  },
+  {
+    "title": "Linux",
+    "level": "50"
+  },
+  {
+    "title": "Base Mongod",
+    "level": "45"
+  },
+  {
+    "title": "LaTeX",
+    "level": "25"
+  },
+  {
+    "title": "Base Graph (ArangoDB)",
+    "level": "25"
+  }
+]

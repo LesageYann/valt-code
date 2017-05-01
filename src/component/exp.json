@@ -11,9 +11,20 @@
       ]
   },
   {
+    "title": "Responsable informatique",
+    "subhead": "2 mois - PHP / administration serveur Linux",
+    "photo": "/media/discoo.png",
+    "links":[
+        {
+          "displayName": "site",
+          "target": "https://www.discoo.fr"
+        }
+      ]
+  },
+  {
     "title": "Développeur web",
     "subhead": "Poste actuel - Pharo / Seaside / JS",
-    "photo": "/media/gevu.png",
+    "photo": "/media/synec.png",
     "links":[
         {
           "displayName": "site",

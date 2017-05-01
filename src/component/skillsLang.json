@@ -1,14 +1,34 @@
 [
   {
     "title": "Node JS",
-    "level": "80"
+    "level": "85"
   },
   {
     "title": "JavaScript",
-    "level": "80"
+    "level": "85"
+  },
+  {
+    "title": "HTML/CSS/SASS",
+    "level": "85"
+  },
+  {
+    "title": "Pharo",
+    "level": "65"
   },
   {
     "title": "Java",
     "level": "50"
+  },
+  {
+    "title": "PHP",
+    "level": "50"
+  },
+  {
+    "title": "Python",
+    "level": "50"
+  },
+  {
+    "title": "C",
+    "level": "40"
   }
 ]

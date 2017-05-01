@@ -4,11 +4,35 @@
     "level": "95"
   },
   {
+    "title": "Leaflet",
+    "level": "90"
+  },
+  {
+    "title": "Angular",
+    "level": "70"
+  },
+  {
+    "title": "MDL",
+    "level": "70"
+  },
+  {
     "title": "React",
     "level": "65"
   },
   {
-    "title": "Angular",
+    "title": "Express",
+    "level": "90"
+  },
+  {
+    "title": "Passport",
     "level": "65"
+  },
+  {
+    "title": "Seaside",
+    "level": "40"
+  },
+  {
+    "title": "LESS",
+    "level": "80"
   }
 ]
