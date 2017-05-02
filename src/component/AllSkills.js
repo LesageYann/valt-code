@@ -9,7 +9,7 @@ class AllSkills extends MDLComponent {
     return (
       <div className="skill-ui">
         <SkillsList title="Langages" items={skillsLang} />
-        <SkillsList title="Libraries" items={skillsLib} />
+        <SkillsList title="Librairies" items={skillsLib} />
       </div>
     );
   }

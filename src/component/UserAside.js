@@ -9,6 +9,8 @@ class UserAside extends MDLComponent {
         <div className="user-avatar">
            <img src={user.avatar} alt="user avatar" />
         </div>
+        <h2>{user.firstName}</h2>
+        <h3>{user.lastName}</h3>
         <p className="user-bio">
           {user.bio}
         </p>
